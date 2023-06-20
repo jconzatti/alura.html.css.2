@@ -24,3 +24,11 @@ body{
 .apresentacao__secao{
     height: 100vh;
 }
+
+.apresentacao__secao__botao{
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-fonte-primaria);
+    display: block;
+}
