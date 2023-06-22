@@ -71,11 +71,12 @@ body{
 }
 
 .apresentacao__secao__imagem--secundaria{
-    width: 80%;   
+    width: 80%; 
 }
 
 .apresentacao__secao__caixa--secundaria{
     text-align: left;
+    padding: 2em;
 }
 
 .apresentacao__secao__caixa__titulo--secundario{
@@ -86,4 +87,9 @@ body{
 
 .apresentacao__secao__caixa__texto--secundario{
     color: var(--cor-fonte-secundaria);
+}
+
+.apresentacao__secao__caixa__botao--semiprimario{
+    display: inline-block;
+    margin-top: 1em;
 }
