@@ -23,14 +23,14 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
 }
 
 .apresentacao__secao--principal{
     background-image: url("./assets/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
-    align-items: center;
-    text-align: center;
 }
 
 .apresentacao__secao__caixa{
@@ -63,5 +63,27 @@ body{
 
 .apresentacao__secao__caixa__texto{
     font-size: 12px;
+    color: var(--cor-fonte-secundaria);
+}
+
+.apresentacao__secao--secundaria{
+    margin: 0 8em;
+}
+
+.apresentacao__secao__imagem--secundaria{
+    width: 80%;   
+}
+
+.apresentacao__secao__caixa--secundaria{
+    text-align: left;
+}
+
+.apresentacao__secao__caixa__titulo--secundario{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+
+.apresentacao__secao__caixa__texto--secundario{
     color: var(--cor-fonte-secundaria);
 }
