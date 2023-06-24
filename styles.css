@@ -104,12 +104,42 @@ body{
     margin: 0 6em;
 }
 
-.apresentacao__secao__caixa--final{
+.apresentacao__secao__lista__dispositivo{
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    list-style: none;
     padding: 2.5em 0;
     font-weight: 700;
     font-size: 32px;
+}
+
+.rodape{
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 6em;
+}
+
+.rodape__lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 2.5em;
+}
+
+.rodape__lista li a{
+    text-decoration: none;
+    color: var(--cor-fonte-primaria);
+    font-size: 16px;
+}
+
+.rodape__lista li a:hover{
+    color: var(--cor-botao);
+}
+
+.rodape__texto{
+    font-size: 14px;
+    color: var(--cor-fonte-secundaria);
+    margin-top: 1.5em;
 }
