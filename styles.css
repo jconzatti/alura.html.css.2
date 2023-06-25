@@ -1,8 +1,10 @@
 :root{
     --cor-fundo: #00030c;
+    --cor-fundo-ativo: #35353c;
     --cor-fonte-primaria: #ffffff;
     --cor-fonte-secundaria: #c0c0c0;
     --cor-botao: #167bf7;
+    --cor-botao-ativo: #509cf7;
     --fonte-principal: 'Inter';
 }
 
@@ -56,9 +58,17 @@ body{
     margin-bottom: 1em;
 }
 
+.apresentacao__secao__caixa__botao:hover{
+    background-color: var(--cor-botao-ativo);
+}
+
 .apresentacao__secao__caixa__botao--secundario{
     background-color: transparent;
     border: 2px solid var(--cor-fonte-primaria);
+}
+
+.apresentacao__secao__caixa__botao--secundario:hover{
+    background-color: var(--cor-fundo-ativo);
 }
 
 .apresentacao__secao__caixa__texto{
